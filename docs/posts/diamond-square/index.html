@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Jacob Milligan</title>
+</head>
+<body>
+    <header class="header">
+    <span class="title">
+        <a href='/'>Jacob Milligan</a>
+    </span>
+    <ul class="linkMenu">
+        <li class="listLink">
+            <a href="/">Home</a>
+        </li>
+        
+        <li class="listLink">
+            <a href="https://github.com/jacobmilligan">
+                <svg height="2rem" width="2rem" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1024 1024" class="githubLink">
+                    <path d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-0.469-52.562-0.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375C304.906 725.438 185.344 681.5 185.344 485.312c0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5 0.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-0.688 123.625-0.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z" />
+                </svg>
+            </a>
+        </li>
+    </ul>
+</header>
+
+    
+    <div class="content">
+        <article class="post">
+            <h1 class="postTitle">Diamond-Square In C#</h1>
+            <span class="postPublished">
+    
+       Posted on <time datetime="2017-08-25T00:08:36&#43;10:00">25 Aug, 2017</time>
+    
+</span>
+<p>
+    <ul class="tagsList">
+        
+            <li><a href="/tags/csharp">csharp</a></li>
+        
+            <li><a href="/tags/procedural">procedural</a></li>
+        
+            <li><a href="/tags/generation">generation</a></li>
+        
+            <li><a href="/tags/fractals">fractals</a></li>
+        
+    </ul>
+</p>
+
+            <section class="postContent">
+                <p>Fractals are cool! They’re indispensable for procedural generation - things like clouds, heightmaps, moisture maps etc.</p>
+
+<p>They can make things like this:</p>
+
+<p><img src="/diamond-square/map.png" alt="" /></p>
+
+<p>With an accompanying heightmap (This is actually Simplex Noise from my current project):</p>
+
+<p><img src="/diamond-square/heightmap.png" alt="" /></p>
+
+<p>Unfortunately they can be pretty difficult to wrap your head around when getting started, there are a bunch of often-mentioned algorithms and techniques used to generate this stuff - Perlin Noise, Simplex Noise, Value Noise being a few, and they all have their pros and cons (value noise looks real bad though, so it’s mostly cons and latticing). I always wanted a really simple, easy to understand code example for learning the process, something directed towards procedural newbies that went in depth.</p>
+
+<p>Most people end up recommending people new to procedural generation implement a variant of the <a href="https://en.wikipedia.org/wiki/Diamond-square_algorithm">Diamond-Square algorithm</a> first, and they’re right to do so because it’s easily the most simple one to understand.</p>
+
+<p>I ended doing my research report for last semesters programming class on a it and used my implementation as a basis for generating a 2d grid-based map with biomes for my end of semester code project in the same subject. The report is pretty in-depth and is targeted at complete newbs, however it’s in Pascal using the obscure SwinGame library (made by my uni), and to be honest I think there are some huge flaws with the results (weird corner values for instance).</p>
+
+<p>That being said, here’s the report: <a href="http://jacobmilligan.github.io/procedural_generation/">http://jacobmilligan.github.io/procedural_generation/</a></p>
+
+<p>And the accompanying code: <a href="https://github.com/jacobmilligan/procedural_generation/tree/master/code">https://github.com/jacobmilligan/procedural_generation/tree/master/code</a></p>
+
+<p>I still think it’s really useful for people struggling to wrap their heads around the process regardless of language and game framework.</p>
+
+<p>However, I’ve been working on my C# project for this semesters programming class and wrote a Diamond-Square generator for it and it’s a sight better, a lot less weird artifacts and more flexible usage. Once again, my goal was to add tonnes of documentation so people still struggling to get what’s going on will get a good picture of everything. I didn’t end up using it, switching to a Simplex Noise variant, but nevertheless the class is still pretty useful.</p>
+
+<p>The code is available on <a href="https://gist.github.com/jacobmilligan">Github</a>:</p>
+
+<script src="https://gist.github.com/jacobmilligan/4d2de48f82ab4f2bc287048dccc07cde.js"></script>
+
+<p>A few caveats with the class:</p>
+
+<ul>
+<li>As it&rsquo;s a variant of Diamond-Square (Random Midpoint Displacement) it requires both the width and height to be the same - only even grids allowed</li>
+<li>The size of the map must be a power of 2 otherwise the algorithm won&rsquo;t work</li>
+<li>It wraps, allowing tiling, but only approximately (very close but with some weird stitching issues). This is just due to the way Diamond-Square works unfortunately.</li>
+</ul>
+
+            </section>
+        </article>
+
+        
+
+        
+    </div>
+
+    <footer>
+    <span>
+        &copy; 2017 Jacob Milligan | Built with <a href="https://gohugo.io/" target="_base">Hugo</a>
+    </span>
+</footer>
+
+</body>
+</html>

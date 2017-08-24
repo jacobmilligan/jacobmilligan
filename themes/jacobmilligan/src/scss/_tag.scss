@@ -1,0 +1,28 @@
+.tagsList {
+    list-style: none;
+    display: inline;
+    padding: 0;
+
+    li {
+        display: inline;
+
+        a {
+            background-color: lighten($color-dim-purple, 59%);
+            display: inline-block;
+            padding: 0.2rem 0.7rem;
+            border-radius: 3px;
+
+            border: none;
+
+            &:hover {
+                background-color: lighten($color-dim-purple, 55%);
+            }
+
+            &:before {
+                content: "#";
+                margin-right: 0.07rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "jacobmilligan-theme",
+  "version": "1.0.0",
+  "description": "Hugo theme for my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "./node_modules/.bin/webpack",
+    "sass-watch": "sass --sourcemap=none --watch src/scss:static/css --style compressed"
+  },
+  "author": "Jacob Milligan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.5.5"
+  }
+}

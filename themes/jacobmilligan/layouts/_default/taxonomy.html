@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <div class="heroMessage">
+        <h1 class="termsHeader">#{{ .Data.Term }}</h1>
+    </div>
+    <div class="content">
+        {{ range .Data.Pages }}
+            {{ partial "post-preview.html" . }}
+        {{ end }}
+    </div>
+{{ end }}

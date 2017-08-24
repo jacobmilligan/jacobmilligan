@@ -1,0 +1,51 @@
+$header-text-color: $color-off-white;
+
+.headerElement {
+    display: inline-block;
+    padding: 0.1vh 1vw;
+    line-height: 3rem;
+}
+
+.header {
+    padding: 0.5vh 2vw;
+    display: block;
+    overflow: auto;
+    background-color: $color-blue;
+    margin-bottom: 0;
+
+    a {
+        color: $header-text-color;
+        border: none;
+        font-family: $default-font;
+        transition: ease-in-out color 0.1s;
+
+        &:hover {
+            color: $color-yellow;
+        }
+    }
+}
+
+.title {
+    @extend .headerElement;
+    font-size: 2rem;
+    font-family: lazer84;
+    float: left;
+}
+
+.linkMenu {
+    @extend .headerElement;
+    font-size: 1.2rem;
+    float: right;
+    margin: 0;
+}
+
+.githubLink {
+    vertical-align: middle;
+    fill: white;
+    margin-top: -6px;
+    transition: ease-in-out fill 0.1s;
+
+    &:hover {
+        fill: $color-yellow;
+    }
+}

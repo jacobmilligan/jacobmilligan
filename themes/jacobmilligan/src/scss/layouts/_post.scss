@@ -1,0 +1,59 @@
+.postPublished {
+    display: block;
+    margin-top: -0.8rem;
+    margin-bottom: 1rem;
+    font-family: $body-font;
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: $color-light-blue;
+}
+
+.postPreview {
+    margin: 0 auto;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid $color-light-gray;
+}
+
+.postSummary {
+    font-family: $body-font;
+    line-height: 1.5rem;
+}
+
+.readMore {
+    margin-top: 2vh;
+}
+
+.post {
+    .postPublished {
+        margin-top: -2vh;
+        margin-bottom: 3vh;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .tagsList {
+        text-align: center;
+    }
+}
+
+.postTitle {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.postContent {
+    font-family: $body-font;
+
+    img {
+        width: 100%;
+    }
+}
+
+.related {
+    border-top: 1px solid $color-light-gray;
+    border-bottom: 1px solid $color-light-gray;
+
+    h1 {
+        text-align: center;
+    }
+}

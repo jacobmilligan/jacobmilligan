@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <div class="content">
+        <article class="post">
+            <h1 class="postTitle">{{ .Title }}</h1>
+            {{ partial "post-meta.html" . }}
+            <section class="postContent">
+                {{ .Content }}
+            </section>
+        </article>
+
+        {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+            {{ $.Scratch.Set "has_related" true }}
+        {{ end }}
+
+        {{ if $.Scratch.Get "has_related" }}
+            <div class="related">
+                <h1>Similar posts</h1>
+                {{ range first 4 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+                    {{ .Description }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

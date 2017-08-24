@@ -1,0 +1,11 @@
+<div class="postPreview">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ partial "post-meta.html" . }}
+
+    {{ if not .Params.hide }}
+        <div class="postSummary">{{ .Summary }}</div>
+        <div class="readMore">
+            <a href="{{ .RelPermalink }}">Read more</a>
+        </div>
+    {{ end }}
+</div>

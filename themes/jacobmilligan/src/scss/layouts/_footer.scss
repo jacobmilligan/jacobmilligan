@@ -1,0 +1,21 @@
+footer {
+    background-color: $color-blue;
+    color: white;
+    padding: 2vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: $footer-height;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: $color-yellow;
+
+        &:hover {
+            border-color: $color-yellow;
+        }
+    }
+}

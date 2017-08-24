@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <div class="heroMessage">
+        <h1>
+            Hi, I'm Jacob
+        </h1>
+        <p>
+            I'm a Computer Science student from Melbourne and I'm really into all things
+            <span class="yellowHighlight">game dev</span>, <span class="lightPinkHighlight">graphics programming</span>, and <span class="orangeHighlight">back end development</span>.
+        </p>
+    </div>
+
+    <div class="content">
+        {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
+        {{ range $paginator.Pages }}
+            {{ partial "post-preview.html" . }}
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+    </div>
+{{ end }}
