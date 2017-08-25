@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedural on Jacob Milligan</title>
-    <link>http://example.org/tags/procedural/</link>
+    <link>http://www.jacobmilligan.com/tags/procedural/</link>
     <description>Recent content in Procedural on Jacob Milligan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Aug 2017 00:08:36 +1000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/procedural/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jacobmilligan.com/tags/procedural/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Diamond-Square In C#</title>
-      <link>http://example.org/posts/diamond-square/</link>
+      <link>http://www.jacobmilligan.com/posts/diamond-square/</link>
       <pubDate>Fri, 25 Aug 2017 00:08:36 +1000</pubDate>
       
-      <guid>http://example.org/posts/diamond-square/</guid>
+      <guid>http://www.jacobmilligan.com/posts/diamond-square/</guid>
       <description>Fractals are cool! They’re indispensable for procedural generation - things like clouds, heightmaps, moisture maps etc.
 They can make things like this:
 With an accompanying heightmap (This is actually Simplex Noise from my current project):

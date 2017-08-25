@@ -1,25 +1,33 @@
-.orangeHighlight {
-    color: $color-orange;
+.heroMessage {
+    color: $color-off-white;
+    font-size: 1rem;
+    margin: 0 auto;
+    background-color: $color-bg;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 3rem;
+
+    h1 {
+        margin: 0 auto;
+        padding: 2rem 0;
+        border: 1px solid $color-light-blue;
+        max-width: 600px;
+    }
 }
 
 .yellowHighlight {
     color: $color-yellow;
 }
 
-.lightPinkHighlight {
-    color: #F784A6;
-
+.blueHighlight {
+    color: lighten($color-light-blue, 5%);
 }
 
-.heroMessage {
-    color: white;
-    font-size: 1rem;
-    margin: 0 auto;
-    background-color: $color-blue;
-    margin-top: 0;
-    padding: 5rem;
+.orangeHighlight {
+    color: lighten($color-orange, 15%);
+}
 
-    h1 {
-        margin: 0;
-    }
+.heroBlurb {
+    margin: 3rem auto 0 auto;
+    max-width: 500px;
 }

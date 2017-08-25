@@ -1,6 +1,6 @@
 footer {
-    background-color: $color-blue;
-    color: white;
+    background-color: $color-bg;
+    color: $color-off-white;
     padding: 2vh;
     position: absolute;
     left: 0;
@@ -12,10 +12,10 @@ footer {
     justify-content: center;
 
     a {
-        color: $color-yellow;
+        color: $color-light-blue;
 
         &:hover {
-            border-color: $color-yellow;
+            border-color: $color-light-blue;
         }
     }
 }
