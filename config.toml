@@ -7,7 +7,3 @@ theme = "jacobmilligan"
     githubLink = "https://github.com/jacobmilligan"
     heroTitle = "Hi, I'm Jacob"
     author = "Jacob Milligan"
-
-[[menu.main]]
-    name = "About"
-    url = "about"
