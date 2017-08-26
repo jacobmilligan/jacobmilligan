@@ -24,6 +24,10 @@ $header-hover-color: lighten($color-light-blue, 20%);
             color: $header-hover-color;
         }
     }
+
+    .listLink {
+        text-transform: uppercase;
+    }
 }
 
 .title {

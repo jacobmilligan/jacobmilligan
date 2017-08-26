@@ -2,3 +2,12 @@ baseURL = "http://www.jacobmilligan.com/"
 languageCode = "en-us"
 title = "Jacob Milligan"
 theme = "jacobmilligan"
+
+[params]
+    githubLink = "https://github.com/jacobmilligan"
+    heroTitle = "Hi, I'm Jacob"
+    author = "Jacob Milligan"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"

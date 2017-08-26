@@ -1,18 +1,21 @@
 {{ define "main" }}
-    <div class="heroMessage">
-        <h1>
-            HI, I'M JACOB
-        </h1>
-        <p class="heroBlurb">
-            I'm a Computer Science student from Melbourne and I'm really into all things
-            <span class="yellowHighlight">game dev</span>, <span class="blueHighlight">graphics programming</span>, and <span class="orangeHighlight">back end web development</span>.
+    <div id="heroMessage">
+        <div id="heroTitle">
+            <h1>
+                {{ .Site.Params.heroTitle }}
+            </h1>
+        </div>
+        <p id="heroBlurb">
+            {{ partial "hero-blurb" . }}
         </p>
     </div>
 
     <div class="content">
         {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
         {{ range $paginator.Pages }}
-            {{ partial "post-preview.html" . }}
+            {{ if eq .Type "posts" }}
+                {{ partial "post-preview.html" . }}
+            {{ end }}
         {{ end }}
         {{ template "_internal/pagination.html" . }}
     </div>
