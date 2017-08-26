@@ -10,4 +10,4 @@ theme = "jacobmilligan"
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about"
