@@ -11,8 +11,10 @@
     <title>{{ .Site.Title }}</title>
 </head>
 <body>
-    {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
+    <div id="bodyWrapper">
+        {{ partial "header.html" . }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
+    </div>
 </body>
 </html>
