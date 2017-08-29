@@ -1,6 +1,6 @@
 ---
 title: "Diamond-Square In C#"
-date: 2017-08-25T00:08:36+10:00
+date: 2016-10-11T00:08:36+10:00
 draft: false
 tags: [ "csharp", "procedural", "generation", "fractals" ]
 ---
