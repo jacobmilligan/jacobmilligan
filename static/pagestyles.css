@@ -1,0 +1,11 @@
+#AboutPage .circleImage {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+#AboutPage .circleImage img {
+    margin-left: -50px;
+}

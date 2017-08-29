@@ -7,3 +7,4 @@ theme = "jacobmilligan"
     githubLink = "https://github.com/jacobmilligan"
     heroTitle = "Hi, I'm Jacob"
     author = "Jacob Milligan"
+    stylesheets = ["/pagestyles.css"]
