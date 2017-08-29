@@ -1,7 +1,6 @@
 footer {
     background-color: $color-bg;
     color: $color-off-white;
-    padding: 2vh;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -10,6 +9,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    nav {
+        text-align: center;
+    }
 
     a {
         color: $color-light-blue;

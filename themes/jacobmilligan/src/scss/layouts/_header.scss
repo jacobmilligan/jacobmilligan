@@ -67,5 +67,9 @@ $header-hover-color: lighten($color-light-blue, 20%);
         display: block;
         float: none;
         margin: 0 auto;
+
+        .listLink {
+            margin: 0 1rem;
+        }
     }
 }
