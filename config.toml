@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "Jacob Milligan"
 theme = "jacobmilligan"
 
+[[menu.main]]
+    name = "About"
+    weight = 1
+    identifier = "about"
+    url = "/about/"
+
 [params]
     githubLink = "https://github.com/jacobmilligan"
     heroTitle = "Hi, I'm Jacob"
