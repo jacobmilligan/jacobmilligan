@@ -6,10 +6,21 @@
     <description>Recent content on Jacob Milligan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2017 03:31:54 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Aug 2017 14:04:36 +1000</lastBuildDate>
     
 	<atom:link href="http://www.jacobmilligan.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://www.jacobmilligan.com/about/</link>
+      <pubDate>Sat, 26 Aug 2017 14:04:36 +1000</pubDate>
+      
+      <guid>http://www.jacobmilligan.com/about/</guid>
+      <description>My name&amp;rsquo;s Jacob Milligan and I&amp;rsquo;m a Computer Science student at Swinburne University.
+In my programming life I spend most of my time with game development, graphics programming, and full stack web (node and react).
+In my regular life I make music as Son King and, while I&amp;rsquo;m not a professional photographer anymore, do the occasional photography session here and there which will inevitably end up in a post or two on this website.</description>
+    </item>
     
     <item>
       <title>New Site!</title>
