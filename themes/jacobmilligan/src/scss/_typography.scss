@@ -1,19 +1,19 @@
 @font-face {
     font-family: renner-book;
-    src: url('fonts/renner-book.otf') format("opentype");
-    src: url('fonts/renner-book.ttf') format("truetype");
+    src: url('fonts/renner-book.otf') format("opentype"),
+         url('fonts/renner-book.ttf') format("truetype");
 }
 
 @font-face {
     font-family: renner-medium;
-    src: url('fonts/renner-medium.otf') format("opentype");
-    src: url('fonts/renner-medium.ttf') format("truetype");
+    src: url('fonts/renner-medium.otf') format("opentype"),
+         url('fonts/renner-medium.ttf') format("truetype");
 }
 
 @font-face {
     font-family: renner-light;
-    src: url('fonts/renner-light.otf') format("opentype");
-    src: url('fonts/renner-light.ttf') format("truetype");
+    src: url('fonts/renner-light.otf') format("opentype"),
+         url('fonts/renner-light.ttf') format("truetype");
 }
 
 $default-font: Futura, renner-medium, "Trebuchet MS", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
