@@ -54,3 +54,18 @@ $header-hover-color: lighten($color-light-blue, 20%);
         fill: $header-hover-color;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .title {
+        text-align: center;
+        display: block;
+        float: none;
+    }
+
+    .linkMenu {
+        text-align: center;
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
