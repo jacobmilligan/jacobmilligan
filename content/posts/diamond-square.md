@@ -1,8 +1,8 @@
 ---
 title: "Diamond-Square In C#"
-date: 2016-10-11T00:08:36+10:00
+date: 2017-08-25T20:36:00+10:00
 draft: false
-tags: [ "csharp", "procedural", "generation", "fractals" ]
+tags: [ "csharp", "procedural", "generation", "fractals", "gamedev" ]
 ---
 
 Fractals are cool! They’re indispensable for procedural generation - things like clouds, heightmaps, moisture maps etc.

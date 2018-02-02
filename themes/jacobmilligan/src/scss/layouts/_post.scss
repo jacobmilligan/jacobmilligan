@@ -39,6 +39,7 @@
 .postTitle {
     font-size: 2rem;
     text-align: center;
+    line-height: 1.5em;
 }
 
 .postContent {
@@ -50,6 +51,8 @@
 }
 
 .related {
+    padding: 1em;
+    padding-bottom: 2em;
     border-top: 1px solid $color-light-gray;
     border-bottom: 1px solid $color-light-gray;
 

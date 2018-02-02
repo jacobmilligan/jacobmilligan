@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jacob Milligan</title>
-    <link>http://www.jacobmilligan.com/posts/</link>
-    <description>Recent content in Posts on Jacob Milligan</description>
+    <title>Gamedev on Jacob Milligan</title>
+    <link>http://www.jacobmilligan.com/tags/gamedev/</link>
+    <description>Recent content in Gamedev on Jacob Milligan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Feb 2018 19:02:04 +1100</lastBuildDate>
     
-	<atom:link href="http://www.jacobmilligan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jacobmilligan.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,16 +31,6 @@ However, at the end of my first year of Uni I got really into C++ and low-level 
 They can make things like this:
 With an accompanying heightmap (This is actually Simplex Noise from my current project):
 Unfortunately they can be pretty difficult to wrap your head around when getting started, there are a bunch of often-mentioned algorithms and techniques used to generate this stuff - Perlin Noise, Simplex Noise, Value Noise being a few, and they all have their pros and cons (value noise looks real bad though, so it’s mostly cons and latticing).</description>
-    </item>
-    
-    <item>
-      <title>New Site!</title>
-      <link>http://www.jacobmilligan.com/posts/new-site/</link>
-      <pubDate>Fri, 25 Aug 2017 03:31:54 +1000</pubDate>
-      
-      <guid>http://www.jacobmilligan.com/posts/new-site/</guid>
-      <description>I decided to move my site over from tumblr to something a little nicer to work with. Tumblr is definitely one of the major reasons I post pretty infrequently as I really don&amp;rsquo;t like working with it at all.
-So I&amp;rsquo;ve got a slick new site using Hugo and let me tell you something - it&amp;rsquo;s a lot nicer to work with. I tried a few static site generators, primarily Jekyll and Gatsby, and just really enjoyed working with Huge mainly because it&amp;rsquo;s insanely fast - seriously you never realize how slow your static site generator is until you use Hugo.</description>
     </item>
     
   </channel>

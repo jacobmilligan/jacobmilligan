@@ -1,10 +1,36 @@
 .content {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 800px;
     padding: 2rem;
     min-height: 100%;
 }
 
 .termsHeader {
     text-align: center;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
 }

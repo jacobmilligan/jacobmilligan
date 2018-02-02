@@ -6,7 +6,7 @@
     <description>Recent content in Fractals on Jacob Milligan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2017 00:08:36 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Aug 2017 20:36:00 +1000</lastBuildDate>
     
 	<atom:link href="http://www.jacobmilligan.com/tags/fractals/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Diamond-Square In C#</title>
       <link>http://www.jacobmilligan.com/posts/diamond-square/</link>
-      <pubDate>Fri, 25 Aug 2017 00:08:36 +1000</pubDate>
+      <pubDate>Fri, 25 Aug 2017 20:36:00 +1000</pubDate>
       
       <guid>http://www.jacobmilligan.com/posts/diamond-square/</guid>
       <description>Fractals are cool! They’re indispensable for procedural generation - things like clouds, heightmaps, moisture maps etc.
