@@ -2,7 +2,7 @@
 title: "Skyrocket - Making a game engine made from scratch (Part 0)"
 date: 2018-02-02T19:02:04+11:00
 draft: true
-tags: [ "c++", "gamedev", "graphics", "engine" ]
+tags: [ "c++", "gamedev", "graphics", "engine", "skyrocket" ]
 ---
 
 I'm by no means a super experienced graphics, gameplay, or engine programmer. In fact, until 2016 the only game-related projects I'd worked on were for Uni or were toy programs. Don't get me wrong, I have worked on **a lot** of toy projects but most of them were scrapped after the initial interest wore off.
