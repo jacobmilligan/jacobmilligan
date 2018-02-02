@@ -1,7 +1,7 @@
 ---
 title: "Skyrocket - Making a game engine made from scratch (Part 0)"
 date: 2018-02-02T19:02:04+11:00
-draft: true
+draft: false
 tags: [ "c++", "gamedev", "graphics", "engine", "skyrocket" ]
 ---
 
