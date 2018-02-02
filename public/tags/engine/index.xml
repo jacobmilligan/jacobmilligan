@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gamedev on Jacob Milligan</title>
-    <link>http://www.jacobmilligan.com/tags/gamedev/</link>
-    <description>Recent content in Gamedev on Jacob Milligan</description>
+    <title>Engine on Jacob Milligan</title>
+    <link>http://www.jacobmilligan.com/tags/engine/</link>
+    <description>Recent content in Engine on Jacob Milligan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Feb 2018 19:02:04 +1100</lastBuildDate>
     
-	<atom:link href="http://www.jacobmilligan.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jacobmilligan.com/tags/engine/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>http://www.jacobmilligan.com/posts/writing-a-game-engine/</guid>
       <description>I&amp;rsquo;m by no means a super experienced graphics, gameplay, or engine programmer. In fact, until 2016 the only game-related projects I&amp;rsquo;d worked on were for Uni or were toy programs. Don&amp;rsquo;t get me wrong, I have worked on a lot of toy projects but most of them were scrapped after the initial interest wore off.
 However, in 2016, in the middle of my first year of Uni I got really into C++ and low-level programming in general and, figuring I&amp;rsquo;d pair that with my love of games I decided to start work on a big, proper project - a game built on a custom engine called Skyrocket made from scratch.</description>
-    </item>
-    
-    <item>
-      <title>Diamond-Square In C#</title>
-      <link>http://www.jacobmilligan.com/posts/diamond-square/</link>
-      <pubDate>Fri, 25 Aug 2017 20:36:00 +1000</pubDate>
-      
-      <guid>http://www.jacobmilligan.com/posts/diamond-square/</guid>
-      <description>Fractals are cool! They’re indispensable for procedural generation - things like clouds, heightmaps, moisture maps etc.
-They can make things like this:
-With an accompanying heightmap (This is actually Simplex Noise from my current project):
-Unfortunately they can be pretty difficult to wrap your head around when getting started, there are a bunch of often-mentioned algorithms and techniques used to generate this stuff - Perlin Noise, Simplex Noise, Value Noise being a few, and they all have their pros and cons (value noise looks real bad though, so it’s mostly cons and latticing).</description>
     </item>
     
   </channel>

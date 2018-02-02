@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.jacobmilligan.com/posts/writing-a-game-engine/</loc>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.jacobmilligan.com/about/</loc>
     <lastmod>2017-08-26T14:04:36+10:00</lastmod>
   </url>
@@ -18,6 +23,12 @@
   </url>
   
   <url>
+    <loc>http://www.jacobmilligan.com/tags/c&#43;&#43;/</loc>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.jacobmilligan.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -29,6 +40,12 @@
   </url>
   
   <url>
+    <loc>http://www.jacobmilligan.com/tags/engine/</loc>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.jacobmilligan.com/tags/fractals/</loc>
     <lastmod>2017-08-25T20:36:00+10:00</lastmod>
     <priority>0</priority>
@@ -36,7 +53,7 @@
   
   <url>
     <loc>http://www.jacobmilligan.com/tags/gamedev/</loc>
-    <lastmod>2017-08-25T20:36:00+10:00</lastmod>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,14 +64,20 @@
   </url>
   
   <url>
+    <loc>http://www.jacobmilligan.com/tags/graphics/</loc>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.jacobmilligan.com/</loc>
-    <lastmod>2017-08-26T14:04:36+10:00</lastmod>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.jacobmilligan.com/posts/</loc>
-    <lastmod>2017-08-25T20:36:00+10:00</lastmod>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,8 +88,14 @@
   </url>
   
   <url>
+    <loc>http://www.jacobmilligan.com/tags/skyrocket/</loc>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.jacobmilligan.com/tags/</loc>
-    <lastmod>2017-08-25T20:36:00+10:00</lastmod>
+    <lastmod>2018-02-02T19:02:04+11:00</lastmod>
     <priority>0</priority>
   </url>
   
