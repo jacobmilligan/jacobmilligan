@@ -1,5 +1,5 @@
 ---
-title: "Skyrocket - Making a game engine made from scratch (Part 0)"
+title: "Skyrocket - Making a game engine from scratch (Part 0)"
 date: 2018-02-02T19:02:04+11:00
 draft: false
 tags: [ "c++", "gamedev", "graphics", "engine", "skyrocket" ]
@@ -7,14 +7,14 @@ tags: [ "c++", "gamedev", "graphics", "engine", "skyrocket" ]
 
 I'm by no means a super experienced graphics, gameplay, or engine programmer. In fact, until 2016 the only game-related projects I'd worked on were for Uni or were toy programs. Don't get me wrong, I have worked on **a lot** of toy projects but most of them were scrapped after the initial interest wore off.
 
-However, in 2016, in the middle of my first year of Uni I got *really* into C++ and low-level programming in general and, figuring I'd pair that with my love of games I decided to start work on a big, proper project - a game built on a custom engine called [Skyrocket](https://github.com/jacobmilligan/Skyrocket) made from scratch. I wanted to do it truly from scratch as much as possible. No big dependencies - no SDL for windowing and input, no GLM for maths, no Intel TBB for task scheduling. And also release a game with it once I'd finished. 
+However, in 2016, in the middle of my first year of Uni I got *really* into C++ and low-level programming in general and, figuring I'd pair that with my love of games I decided to start work on a big, proper project - a game built on a custom engine called [Skyrocket](https://github.com/jacobmilligan/Skyrocket) made from scratch. I wanted to do it truly from scratch as much as possible. No big dependencies - no SDL for windowing and input, no GLM for maths, no Intel TBB for task scheduling. And also release a game with it once I'd finished.
 
 Small goals, right?
 
 # First, some background
 
 > "That's insane and masochistic. The only way to actually *finish* a game is to use Unity or UE4."
-> 
+>
 > -- *Someone on /r/gamedev, 2018. Probably*
 
 Look, to be honest some days I really just want to fire up Unity or UE4 and actually start making a game and not have to worry about memory alignment issues, `- (void)ReallyAnnoyingObjectiveCMethodToTypeThatHas50Parameters`, deriving and testing linear algebra stuff, or `std::atomic` for the day . But thats only sometimes and I feel like the rewards for taking this path are huge. In fact, there are three big reasons I think that, at least for me, doing it like this is the only way forward:
@@ -41,9 +41,9 @@ And I researched a lot. In the past I'd made a growing collection of crummy game
 
 In preparation, I made what turned out to be probably the single greatest book purchase ever - Jason Gregory's [Game Engine Architecture](http://gameenginebook.com/).
 
-Reading through this book helped greatly for the next step I took in researching game engines - reading through existing open-source engines code bases. This is something that people often recommend against doing as you often don't have the whole picture as to the circumstances involved writing the code and can end up mimicking really specific or strange design decisions. 
+Reading through this book helped greatly for the next step I took in researching game engines - reading through existing open-source engines code bases. This is something that people often recommend against doing as you often don't have the whole picture as to the circumstances involved writing the code and can end up mimicking really specific or strange design decisions.
 
-I'm of the opposite opinion - I think it's invaluable. 
+I'm of the opposite opinion - I think it's invaluable.
 
 I think it teaches you a lot about general architecture of a game engine and techniques used to achieve certain things like designing platform abstraction layers. And after a while you start to see patterns repeated across different code bases - unspoken best practices - that become a useful kernel of knowledge to store in your mental toolbox.
 
@@ -61,7 +61,7 @@ So I figured that I'd start somewhere around the bottom bit and build the engine
 
 I'd done enough C++ projects by this stage to know that if I didn't work out a build system and project structure that I liked early on then as the project became more complex and my patience for fiddling with build rules waned, things would become really challenging.
 
-For a bit of background, the C++ build ecosystem is insane and  the C++ dependency management ecosystem is insane and C++ build times are insane and in fact C++ itself is insane, but that's another story. There's a tonne of build systems out there and they're all crazy but whether C++ developers want to admit it or not, there's no denying that **CMake** has become the de-facto build system for open-source C++ projects. 
+For a bit of background, the C++ build ecosystem is insane and  the C++ dependency management ecosystem is insane and C++ build times are insane and in fact C++ itself is insane, but that's another story. There's a tonne of build systems out there and they're all crazy but whether C++ developers want to admit it or not, there's no denying that **CMake** has become the de-facto build system for open-source C++ projects.
 
 When I started learning C++ about two years ago I started using CMake by pure chance - I'd had enough of writing and navigating my super janky `build.sh` file and `make` really didn't feel like much of a better solution so I literally searched 'c++ alternatives to make' on google and clicked the first stackoverflow.com link and a few people mentioned CMake so I installed it and started learning it's whacky syntax. Since then, I've tried other build systems ([Bazel](https://bazel.build/) so far being the only one I'm still keeping an eye on) but none have really been solid enough in terms of features and support to replace CMake.
 

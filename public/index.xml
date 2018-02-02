@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Skyrocket - Making a game engine made from scratch (Part 0)</title>
-      <link>http://www.jacobmilligan.com/posts/writing-a-game-engine/</link>
+      <title>Skyrocket - Making a game engine from scratch (Part 0)</title>
+      <link>http://www.jacobmilligan.com/posts/making-a-game-engine-part-0/</link>
       <pubDate>Fri, 02 Feb 2018 19:02:04 +1100</pubDate>
       
-      <guid>http://www.jacobmilligan.com/posts/writing-a-game-engine/</guid>
+      <guid>http://www.jacobmilligan.com/posts/making-a-game-engine-part-0/</guid>
       <description>I&amp;rsquo;m by no means a super experienced graphics, gameplay, or engine programmer. In fact, until 2016 the only game-related projects I&amp;rsquo;d worked on were for Uni or were toy programs. Don&amp;rsquo;t get me wrong, I have worked on a lot of toy projects but most of them were scrapped after the initial interest wore off.
 However, in 2016, in the middle of my first year of Uni I got really into C++ and low-level programming in general and, figuring I&amp;rsquo;d pair that with my love of games I decided to start work on a big, proper project - a game built on a custom engine called Skyrocket made from scratch.</description>
     </item>
