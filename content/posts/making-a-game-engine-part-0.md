@@ -114,7 +114,7 @@ Next post I'll start talking about implementing the platform layer but for now I
 
 Before I list the resources, I feel like everyone interested in doing this should watch a lot of [Handmade Hero](https://handmadehero.org/) episodes. If you've never seen it, please follow the list and skip through a few episodes, because Casey really knows his stuff and a lot of the techniques he talks about are used in some shape or form by all of the below engines.
 
-Next, here's a list of awesome open-source game engine/graphics engine/media library projects to analyze:
+Next, here's a list of awesome game engine/graphics engine/media library projects to analyze that are either open-source or have their code available in some way, shape, or form:
 
 * [UE4](https://www.unrealengine.com/en-US/ue4-on-github) (C++, Game engine)
 * [Godot](https://github.com/godotengine/godot) (C++, Game engine)
