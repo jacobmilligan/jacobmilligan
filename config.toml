@@ -8,6 +8,8 @@ pygmentsCodefences=true
 
 [params]
     githubLink = "https://github.com/jacobmilligan"
+    twitterLink = "https://twitter.com/jakemilligan"
+    soundcloudLink = "https://soundcloud.com/sonking"
     heroTitle = "Hi, I'm Jacob"
     author = "Jacob Milligan"
     stylesheets = ["/pagestyles.css", "/syntax.css", "/mainstyle.css"]

@@ -44,7 +44,7 @@ $header-hover-color: lighten($color-light-blue, 20%);
     margin: 0;
 }
 
-.githubLink {
+.githubLink, .twitterLink, .soundcloudLink {
     vertical-align: middle;
     fill: $header-text-color;
     margin-top: -6px;
@@ -53,6 +53,29 @@ $header-hover-color: lighten($color-light-blue, 20%);
     &:hover {
         fill: $header-hover-color;
     }
+}
+
+.twitterLink {
+    margin-left: -25px;
+
+    &:hover {
+        .twitterLinkBack {
+            fill: $header-hover-color;
+        }
+    }
+
+    .twitterLinkBack {
+        transition: ease-in-out fill 0.1s;
+        fill:$header-text-color;
+    }
+
+    .twitterLinkFore {
+        fill:$color-bg;
+    }
+}
+
+.soundcloudLink {
+    margin-left: -25px;
 }
 
 @media screen and (max-width: 480px) {
