@@ -10,9 +10,9 @@ $header-hover-color: lighten($color-light-blue, 20%);
 .header {
     padding: 0.5vh 2vw;
     display: block;
-    overflow: auto;
+    overflow: hidden;
     background-color: $color-bg;
-    margin-bottom: 0;
+    margin-bottom: -1px;
 
     a {
         color: $header-text-color;
@@ -39,9 +39,19 @@ $header-hover-color: lighten($color-light-blue, 20%);
 
 .linkMenu {
     @extend .headerElement;
+    line-height: 3.5rem;
     font-size: 1.2rem;
-    float: right;
     margin: 0;
+    margin-left: 1em;
+    float: left;
+
+    li {
+        margin: 0 0.5em;
+    }
+}
+
+.socialLinks {
+    float: right;
 }
 
 .githubLink, .twitterLink, .soundcloudLink {
@@ -56,8 +66,6 @@ $header-hover-color: lighten($color-light-blue, 20%);
 }
 
 .twitterLink {
-    margin-left: -25px;
-
     &:hover {
         .twitterLinkBack {
             fill: $header-hover-color;
@@ -74,25 +82,42 @@ $header-hover-color: lighten($color-light-blue, 20%);
     }
 }
 
-.soundcloudLink {
-    margin-left: -25px;
-}
+@media screen and (max-width: 670px) {
+    .header {
+        padding: 1.5vh 1vw;
+        overflow: hidden;
 
-@media screen and (max-width: 480px) {
-    .title {
+        .title {
+            margin-bottom: 0;
+        }
+    }
+
+    .headerElement {
         text-align: center;
         display: block;
         float: none;
+        width: 100%;
+        margin: 0 0 0.5em 0;
+        padding: 0;
     }
 
     .linkMenu {
-        text-align: center;
-        display: block;
-        float: none;
-        margin: 0 auto;
+        margin-top: 0;
 
-        .listLink {
-            margin: 0 1rem;
+        li {
+            font-size: 0.8em;
         }
+
+        svg {
+            width: 90%;
+        }
+    }
+
+    .socialLinks {
+        margin: 0 auto 1em auto;
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
     }
 }
